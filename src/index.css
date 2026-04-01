@@ -1,0 +1,8 @@
+
+@import "tailwindcss";
+
+#msgCenter{
+    display: flex;
+    flex-direction: column-reverse;
+    overflow-y: auto;
+}
