@@ -130,7 +130,7 @@ const HomePage = () => {
         </div>
 
         {/* Input Area */}
-        <form onSubmit={handleSubmit} className="p-4 md:pb-10 pb-20 border-t border-gray-800 flex gap-3" >
+        <form onSubmit={handleSubmit} className="p-4 md:pb-10 pb-15 border-t border-gray-800 flex gap-3" >
           <input
             value={input.text}
             onChange={(e) => setInput({ ...input, text: e.target.value })}
@@ -142,7 +142,7 @@ const HomePage = () => {
           {/* <input type="file" className="text-white"/> */}
           <button
             type="submit"
-            className="bg-purple-600 text-white px-2 rounded-2xl cursor-pointer"
+            className="bg-purple-600 text-white px-3 rounded-2xl cursor-pointer"
           // onClick={handleSubmit}
 
           >
