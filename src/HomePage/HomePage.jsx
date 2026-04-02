@@ -68,7 +68,7 @@ const HomePage = () => {
 
 
   return (
-    <div className="md:h-screen h-[800px] md:w-full  bg-[#1c1c20] flex justify-center">
+    <div className="md:h-screen h-[750px] md:w-full  bg-[#1c1c20] flex justify-center">
 
       {/* Main container */}
       <div className="md:w-[800px] md:h-full bg-[#16171d]  border-l border-r border-gray-800 flex flex-col">
@@ -76,7 +76,7 @@ const HomePage = () => {
         {/* Header */}
         <div className="flex justify-center md:py-5 py-3 border-b border-gray-800">
 
-          <h1 className="text-center text-white text-xl md:text-3xl font-bold mt-3">
+          <h1 className="text-center text-white text-2xl md:text-3xl font-bold mt-3">
             Welcome to  ChatBot
 
           </h1>
