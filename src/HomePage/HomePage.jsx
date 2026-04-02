@@ -74,7 +74,7 @@ const HomePage = () => {
       <div className="md:w-[800px] md:h-full w-full bg-[#16171d]  border-l border-r border-gray-800 flex flex-col">
 
         {/* Header */}
-        <div className="flex justify-center md:py-5 py-3 border-b border-gray-800">
+        <div className="flex justify-center md:py-5 py-3 border-b border-gray-800 ml-10 md:ml-0">
 
           <h1 className="text-center text-white text-2xl md:text-3xl font-bold mt-3">
             Welcome to  ChatBot
