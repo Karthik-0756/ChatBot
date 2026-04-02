@@ -68,7 +68,7 @@ const HomePage = () => {
 
 
   return (
-    <div className="md:h-screen h-[800px] md:w-full  bg-[#1c1c20] flex justify-center">
+    <div className="md:h-screen h-[850px] md:w-full  bg-[#1c1c20] flex justify-center">
 
       {/* Main container */}
       <div className="md:w-[800px] md:h-full bg-[#16171d]  border-l border-r border-gray-800 flex flex-col">
