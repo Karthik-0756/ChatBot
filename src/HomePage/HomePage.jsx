@@ -142,13 +142,13 @@ const HomePage = () => {
           {/* <input type="file" className="text-white"/> */}
           <button
             type="submit"
-            className="bg-purple-600 text-white px-3 py-1 rounded-2xl cursor-pointer"
+            className="bg-purple-600 text-white px-2 rounded-2xl cursor-pointer"
           // onClick={handleSubmit}
 
           >
             <img src={SendIcon} className="md:w-5 md:h-5 w-4 h-4" alt="" />
           </button>
-          <button><img src={deleteIcon} className="md:w-5 md:h-5 w-4 h-4 cursor-pointer" onClick={handleDelete} alt="" /></button>
+          <button><img src={deleteIcon} className="w-5 h-6 cursor-pointer" onClick={handleDelete} alt="" /></button>
         </form>
 
       </div>
