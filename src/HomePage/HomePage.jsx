@@ -130,7 +130,7 @@ const HomePage = () => {
         </div>
 
         {/* Input Area */}
-        <form onSubmit={handleSubmit} className="p-4 pb-10 border-t border-gray-800 flex gap-3" >
+        <form onSubmit={handleSubmit} className="p-4 md:pb-10 pb-20 border-t border-gray-800 flex gap-3" >
           <input
             value={input.text}
             onChange={(e) => setInput({ ...input, text: e.target.value })}
